@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: UCLA Computer Science PhD Student
+subtitle: UCLA Computer Science Ph.D. Student
 
 profile:
   align: right
