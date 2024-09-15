@@ -13,19 +13,13 @@
 	journal = {bioRxiv}
 }
 
-@InProceedings {10.1007/978-1-0716-3989-4_52,
-		author="Fu*, Boyang
-		and Anand*, Prateek
-		and Anand*, Aakarsh
-		and Mefford, Joel
-		and Sankararaman, Sriram",
-		editor="Ma, Jian",
-		title="A Scalable Adaptive Quadratic Kernel Method for Interpretable Epistasis Analysis in Complex Traits",
-		booktitle="Research in Computational Molecular Biology",
-		year="2024",
-		publisher="Springer Nature Switzerland",
-		address="Cham",
-		pages="458--461",
-		isbn="978-1-0716-3989-4",
-		url="https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_52"
+@article {Fu29082024,
+	author = {Fu*, Boyang and Anand*, Prateek and Anand*, Aakarsh and Mefford, Joel and Sankararaman, Sriram}, 
+	title = {A scalable adaptive quadratic kernel method for interpretable epistasis analysis in complex traits},
+	year = {2024}, 
+	doi = {10.1101/gr.279140.124}, 
+	abstract ={Our knowledge of the contribution of genetic interactions (epistasis) to variation in human complex traits remains limited, partly due to the lack of efficient, powerful, and interpretable algorithms to detect interactions. Recently proposed approaches for set-based association tests show promise in improving power to detect epistasis by examining the aggregated effects of multiple variants. Nevertheless, these methods either do not scale to large Biobank datasets or lack interpretability. We propose QuadKAST, a scalable algorithm focused on testing pairwise interaction effects (quadratic effects) within small to medium sized sets of genetic variants (<= 100 SNPs) on a trait and provide quantified interpretation of these effects. Comprehensive simulations showed that QuadKAST is well-calibrated. Additionally, QuadKAST is highly sensitive in detecting loci with epistatic signals and accurate in its estimation of quadratic effects. We applied QuadKAST to 52 quantitative phenotypes measured in ~ 300,000 unrelated white British individuals in the UK Biobank to test for quadratic effects within each of  9,515 protein-coding genes. We detected 32 trait-gene pairs across 17 traits and 29 genes that demonstrate statistically significant signals of quadratic effects (p <= 0.05/(9,515*52)  accounting for the number of genes and traits tested). Across these trait-gene pairs, the proportion of trait variance explained by quadratic effects is similar to additive effects (median {\sigma^{2}_{quad}} / {\sigma^{2}_{g}} = 0.15), with five pairs having a ratio greater than one.  Our method enables the detailed investigation of epistasis on a large scale, offering new insights into its role and importance.}, 
+	URL = {http://genome.cshlp.org/content/early/2024/08/29/gr.279140.124.abstract}, 
+	eprint = {http://genome.cshlp.org/content/early/2024/08/29/gr.279140.124.full.pdf+html}, 
+	journal = {Genome Research} 
 }
