@@ -7,7 +7,7 @@ subtitle: UCLA Computer Science Ph.D. Student
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
     <p>123 your address street</p>
