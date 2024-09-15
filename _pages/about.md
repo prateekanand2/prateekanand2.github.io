@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>panand2@g.ucla.edu</p>
     <p>(408) 431 - 1325</p>
-    <p>Los Angeles, CA 12345</p>
+    <p>Los Angeles, CA</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
