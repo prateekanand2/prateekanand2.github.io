@@ -65,14 +65,14 @@
             "publisher": "Genome Research",
             "releaseDate": "2024",
             "url": "http://genome.cshlp.org/content/early/2024/08/29/gr.279140.124.abstract",
-            "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+            "summary": "Method: QuadKAST"
         },
         {
             "name": "A biobank-scale test of marginal epistasis reveals genome-wide signals of polygenic epistasis",
             "publisher": "bioRxiv",
             "releaseDate": "2023",
             "url": "https://www.biorxiv.org/content/10.1101/2023.09.10.557084v1",
-            "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+            "summary": "Method: FAME"
         }
     ],
     "skills": [
@@ -93,6 +93,32 @@
                 "Numpy",
                 "Pandas",
                 "Git"
+            ]
+        },
+        {
+            "name": "Courses",
+            "icon": "fa-solid fa-hashtag",
+            "keywords": [
+                "Machine Learning",
+                "Artificial Intelligence",
+                "Neural Networks and Deep Learning",
+                "Software Engineering and Construction",
+                "Data Structures",
+                "Algorithms and Complexity",
+                "Linear Algebra",
+                "Statistics and Probability",
+                "Optimization",
+                "Machine Learning in Genetics",
+                "Algorithms in Bioinformatics"
+            ]
+        },
+        {
+            "name": "Other",
+            "icon": "fa-solid fa-hashtag",
+            "keywords": [
+                "Probabilistic Models",
+                "Hypothesis Testing",
+                "Cluster Computing"
             ]
         }
     ],
