@@ -1,5 +1,5 @@
 ---
-layout: presentations
+layout: page
 title: presentations
 permalink: /presentations/
 description: Talks and posters.
