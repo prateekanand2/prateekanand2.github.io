@@ -174,9 +174,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  # presentations:
-  #   output: true
-  #   permalink: /presentations/:path/
+  presentations:
+    output: true
+    permalink: /presentations/:path/
 
 announcements:
   enabled: false
