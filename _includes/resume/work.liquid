@@ -9,12 +9,28 @@
 </style>
 
 <ul class="card-text font-weight-light list-group list-group-flush">
+  {% assign ongoing_work = '' | split: '' %}
+  {% assign past_work = '' | split: '' %}
+
   {% assign work = data[1] | sort: 'startDate' | reverse %}
+
   {% for content in work %}
+    {% if content.endDate == 'Present' %}
+      {% assign ongoing_work = ongoing_work | push: content %}
+    {% else %}
+      {% assign past_work = past_work | push: content %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign ongoing_sorted = ongoing_work | sort: 'startDate' | reverse %}
+  {% assign past_sorted = past_work | sort: 'endDate' | reverse %}
+  
+  {% assign sorted_work = ongoing_sorted | concat: past_sorted %}
+
+  {% for content in sorted_work %}
     <li class="list-group-item">
       <div class="row">
-        <!-- Increase the width for date -->
-        <div class="col-xs-3 col-sm-3 col-md-3 text-center" style="width: 100px;">
+        <div class="col-xs-3 col-sm-3 col-md-3 text-center" style="width: 100px">
           {% if content.startDate %}
             {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
@@ -25,7 +41,6 @@
           {% endif %}
           <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 100px;">{{ date }}</span>
         </div>
-        <!-- Reduce the width for the main content -->
         <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ content.url }}">{{ content.position }}</a>
@@ -42,3 +57,4 @@
     </li>
   {% endfor %}
 </ul>
+
