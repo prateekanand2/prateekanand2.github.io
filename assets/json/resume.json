@@ -45,15 +45,6 @@
       "courses": ["Major Field: Artifial Intelligence", "Minor Fields: Data Science Computing and Computational Systems Biology"]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
   "publications": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
@@ -85,18 +76,38 @@
       ]
     }
   ],
-  "interests": [
+  "awards": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "title": "Warren Alpert Computational Biology and AI Fellow",
+      "date": "2024",
+      "awarder": "The Warren Alpert Foundation",
+      "url": "https://samueli.ucla.edu/ucla-receives-4-6-million-grant-from-the-warren-alpert-foundation-to-launch-computational-biology-ai-training-program/"
+    },
+    {
+      "title": "NCI Scholarship",
+      "date": "2023",
+      "awarder": "National Cancer Institute",
+      "url": "https://canarycenter.stanford.edu/canarycrest.html"
+    },
+    {
+      "title": "NSF REU Scholarship",
+      "date": "2022",
+      "awarder": "National Science Foundation",
+      "url": "https://qcb.ucla.edu/big-summer/"
+    },
+    {
+      "title": "UCLA Dean's Honors List",
+      "date": "2020 - 2024",
+      "awarder": "UCLA",
+    },
+    {
+      "title": "Andy Grove Intel Scholarship",
+      "date": "2020",
+      "awarder": "Intel Corporation",
+    },
+    {
+      "title": "Valedictorian",
+      "date": "2020",
+      "awarder": "Homestead High School",
     }
   ]
-}
