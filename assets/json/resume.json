@@ -26,7 +26,7 @@
         {
             "institution": "UCLA",
             "location": "Los Angeles, CA",
-            "url": "https://www.uzh.ch/",
+            "url": "https://www.cs.ucla.edu/",
             "area": "Computer Science",
             "studyType": "Ph.D.",
             "startDate": "2024",
@@ -39,7 +39,7 @@
         {
             "institution": "UCLA",
             "location": "Los Angeles, CA",
-            "url": "https://www.uzh.ch/",
+            "url": "https://www.cs.ucla.edu/",
             "area": "Computer Science",
             "studyType": "B.S.",
             "startDate": "2020",
@@ -77,16 +77,22 @@
     ],
     "skills": [
         {
-            "name": "Physics",
-            "level": "Master",
+            "name": "Programming languages",
             "icon": "fa-solid fa-hashtag",
             "keywords": [
-                "Quantum Mechanics",
-                "Quantum Computing",
-                "Quantum Information",
-                "Quantum Cryptography",
-                "Quantum Communication",
-                "Quantum Teleportation"
+                "Python",
+                "C++"
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "icon": "fa-solid fa-hashtag",
+            "keywords": [
+                "Scikit-learn",
+                "PyTorch",
+                "Numpy",
+                "Pandas",
+                "Git"
             ]
         }
     ],
