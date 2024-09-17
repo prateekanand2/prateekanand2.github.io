@@ -50,13 +50,29 @@
         {
             "name": "UCLA Computer Science | Sriram Lab",
             "position": "Student Researcher",
-            "url": "https://example.com",
             "startDate": "06\/2022",
             "endDate": "Pres.",
             "summary": "Developing scalable machine learning/statistical software for human genetics.",
             "highlights": [
                 "Research Intern: Bruins in Genomics (06\/2022 - 08\/2022)"
             ]
+        },
+        {
+            "name": "Stanford University School of Medicine | Curtis Lab",
+            "position": "Research Intern",
+            "startDate": "06\/2023",
+            "endDate": "01\/2024",
+            "summary": "Early detection of blood cancer through computational modeling and inference.",
+            "highlights": [
+                "Canary CREST Program for Early Cancer Detection"
+            ]
+        },
+        {
+            "name": "UCLA Jonsson Comprehensive Cancer Center | Boutros Lab ",
+            "position": "Research Assistant",
+            "startDate": "01\/2021",
+            "endDate": "04\/2022",
+            "summary": "Pipeline development for quantifying/locating copy-number aberrations in human cancer samples.",
         }
     ],
     "publications": [
