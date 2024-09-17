@@ -1,3 +1,13 @@
+<style>
+  .row > div {
+    padding-right: 10px; /* Add padding to prevent content from touching each other */
+  }
+
+  .badge {
+    white-space: nowrap; /* Prevents the text within the badge from wrapping */
+  }
+</style>
+
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% assign work = data[1] | sort: 'startDate' | reverse %}
   {% for content in work %}
