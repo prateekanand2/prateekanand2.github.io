@@ -22,17 +22,6 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
   "education": [
     {
       "institution": "UCLA",
@@ -43,6 +32,26 @@
       "startDate": "2024",
       "endDate": "2029",
       "courses": ["Major Field: Artifial Intelligence", "Minor Fields: Data Science Computing and Computational Systems Biology"]
+    },
+    {
+      "institution": "UCLA",
+      "location": "Los Angeles, CA",
+      "url": "https://www.uzh.ch/",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2020",
+      "endDate": "2024",
+    }
+  ],
+  "work": [
+    {
+      "name": "Institute for Advanced Study, Princeton University",
+      "position": "Professor of Theoretical Physics",
+      "url": "https://example.com",
+      "startDate": "1933-01-01",
+      "endDate": "1955-01-01",
+      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": ["Relativity"]
     }
   ],
   "publications": [
