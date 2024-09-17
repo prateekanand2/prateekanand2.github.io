@@ -23,8 +23,8 @@
   {% endfor %}
 
   {% assign ongoing_sorted = ongoing_work | sort: 'startDate' | reverse %}
-  {% assign past_sorted = past_work | sort: 'endDate' | reverse %}
-  
+  {% assign past_sorted = past_work | sort: 'endDate' %}
+
   {% assign sorted_work = ongoing_sorted | concat: past_sorted %}
 
   {% for content in sorted_work %}
@@ -57,4 +57,3 @@
     </li>
   {% endfor %}
 </ul>
-
