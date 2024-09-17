@@ -1,9 +1,20 @@
+<style>
+  .col-xs-3, .col-sm-3, .col-md-3 {
+    padding-right: 15px; /* Increase right padding for spacing */
+  }
+
+  .col-xs-9, .col-sm-9, .col-md-9 {
+    padding-left: 15px; /* Ensure there's space between columns */
+  }
+</style>
+
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% assign work = data[1] | sort: 'startDate' | reverse %}
   {% for content in work %}
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
+        <!-- Increase the width for date -->
+        <div class="col-xs-3 col-sm-3 col-md-3 text-center" style="width: 100px;">
           {% if content.startDate %}
             {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
@@ -12,9 +23,10 @@
           {% else %}
             {% assign date = '' %}
           {% endif %}
-          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
+          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 100px;">{{ date }}</span>
         </div>
-        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+        <!-- Reduce the width for the main content -->
+        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ content.url }}">{{ content.position }}</a>
           </h6>
@@ -22,9 +34,7 @@
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
           <ul class="items">
             {% for item in content.highlights %}
-              <li>
-                <span class="item">{{ item }}</span>
-              </li>
+              <li><span class="item">{{ item }}</span></li>
             {% endfor %}
           </ul>
         </div>
