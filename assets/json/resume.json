@@ -93,7 +93,7 @@
     "skills": [
         {
             "name": "Programming languages",
-            "icon": "fa-solid fa-hashtag",
+            "icon": "fa-solid fa-code",
             "keywords": [
                 "Python",
                 "C++"
@@ -101,7 +101,7 @@
         },
         {
             "name": "Frameworks",
-            "icon": "fa-solid fa-hashtag",
+            "icon": "fa-solid fa-cubes",
             "keywords": [
                 "Scikit-learn",
                 "PyTorch",
@@ -112,7 +112,7 @@
         },
         {
             "name": "Courses",
-            "icon": "fa-solid fa-hashtag",
+            "icon": "fa-solid fa-chalkboard-teacher",
             "keywords": [
                 "Machine Learning",
                 "Artificial Intelligence",
@@ -129,7 +129,7 @@
         },
         {
             "name": "Other",
-            "icon": "fa-solid fa-hashtag",
+            "icon": "fa-solid fa-cogs",
             "keywords": [
                 "Probabilistic Models",
                 "Hypothesis Testing",
