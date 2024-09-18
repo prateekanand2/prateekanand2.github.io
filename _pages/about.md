@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <code>UCLA Computer Science Ph.D. Student</code>
+subtitle: <span style="font-family: monospace; font-size: smaller;">UCLA Computer Science Ph.D. Student</span>
 
 profile:
   align: right
