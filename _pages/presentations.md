@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 <!-- pages/presentations.md -->
-<div class="publicationss">
+<div class="publications">
 
 {% bibliography --file presentations %}
 
