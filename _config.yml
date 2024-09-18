@@ -285,24 +285,18 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 scholar:
   last_name: [Anand]
   first_name: [Prateek, P.]
-
   style: apa
   locale: en
-
   source: /_bibliography/
-  bibliography:
-    - papers.bib
-    - presentations.bib  # Include both BibTeX files here
-  bibliography_template: bib  # Shared template for both
+  bibliography: papers.bib
+  presentations: presentations.bib
+  bibliography_template: bib
   bibtex_filters: [latex, smallcaps, superscript]
-
   replace_strings: true
   join_strings: true
-
   details_dir: bibliography
   details_link: Details
-
-  query: "@*"  # Query for both publications and presentations
+  query: "@*"
   group_by: year
   group_order: descending
 
