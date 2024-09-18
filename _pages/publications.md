@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: "* denotes equal contribution."
+description: "Journals and preprints. * denotes equal contribution."
 nav: true
 nav_order: 2
 ---
