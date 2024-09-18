@@ -2,15 +2,19 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Teaching assistantship, mentorship, and grading.
 nav: true
 nav_order: 6
 ---
 
-### CM146 Introduction to Machine Learning
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <h3 style="margin: 0;">CM146 Introduction to Machine Learning</h3>
+  <span style="font-weight: bold; background-color: #f0f0f0; padding: 0.2em 0.5em;">Winter 2023</span>
+</div>
+<p>Reader</p>
 
-#### Winter 2023
-- **Role:** Reader
-
-#### Winter 2024
-- **Role:** Reader
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <h3 style="margin: 0;">CM146 Introduction to Machine Learning</h3>
+  <span style="font-weight: bold; background-color: #f0f0f0; padding: 0.2em 0.5em;">Winter 2024</span>
+</div>
+<p>Reader</p>
