@@ -32,10 +32,7 @@ $(document).ready(function () {
 
   let theme = localStorage.getItem("theme");
   if (theme == null || theme == "null") {
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      theme = "dark";
-    }
+    theme = "dark";  // Default to dark mode
   }
 
   $(".jupyter-notebook-iframe-container iframe").each(function () {
