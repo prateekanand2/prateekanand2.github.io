@@ -729,24 +729,27 @@ footer.sticky-bottom {
 
       .author {
         a {
-          font-weight: bold;  // Make the text bold
-          text-decoration: none;  // Remove underline
-      
+          border-bottom: 1px dashed var(--global-theme-color);
+
           &:hover {
-            text-decoration: none;  // Ensure no underline on hover
+            border-bottom-style: solid;
+            text-decoration: none;
           }
         }
-      
+
         > em {
+          border-bottom: 1px solid;
           font-style: normal;
         }
-      
+
         > span.more-authors {
           color: var(--global-text-color-light);
+          border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
-      
+
           &:hover {
             color: var(--global-text-color);
+            border-bottom: 1px dashed var(--global-text-color);
           }
         }
       }
