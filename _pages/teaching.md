@@ -7,6 +7,6 @@ nav: true
 nav_order: 6
 ---
 
-### CM146 Introduction to Machine Learning
+#### <u>CM146 Introduction to Machine Learning</u>
 - `Reader` — `Winter 2023`
 - `Reader` — `Winter 2024`
