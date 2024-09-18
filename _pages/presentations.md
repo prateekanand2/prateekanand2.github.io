@@ -10,6 +10,6 @@ nav_order: 3
 <!-- pages/presentations.md -->
 <div class="presentations">
 
-{% presentations %}
+{% bibliography --file presentations %}
 
 </div>
