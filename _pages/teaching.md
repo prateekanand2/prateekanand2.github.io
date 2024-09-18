@@ -7,14 +7,14 @@ nav: true
 nav_order: 6
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <h3 style="margin: 0;">CM146 Introduction to Machine Learning</h3>
-  <span style="font-weight: bold; background-color: #f0f0f0; padding: 0.2em 0.5em;">Winter 2023</span>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9em;">
+  <h4 style="margin: 0;">CM146 Introduction to Machine Learning</h4>
+  <span>`Winter 2023`</span>
 </div>
-<p>Reader</p>
+<p style="font-size: 0.85em;">Reader</p>
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <h3 style="margin: 0;">CM146 Introduction to Machine Learning</h3>
-  <span style="font-weight: bold; background-color: #f0f0f0; padding: 0.2em 0.5em;">Winter 2024</span>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9em;">
+  <h4 style="margin: 0;">CM146 Introduction to Machine Learning</h4>
+  <span>`Winter 2024`</span>
 </div>
-<p>Reader</p>
+<p style="font-size: 0.85em;">Reader</p>
