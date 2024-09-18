@@ -7,14 +7,6 @@ nav: true
 nav_order: 6
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9em;">
-  <h4 style="margin: 0;">CM146 Introduction to Machine Learning</h4>
-  <span>`Winter 2023`</span>
-</div>
-<p style="font-size: 0.85em;">Reader</p>
-
-<div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9em;">
-  <h4 style="margin: 0;">CM146 Introduction to Machine Learning</h4>
-  <span>`Winter 2024`</span>
-</div>
-<p style="font-size: 0.85em;">Reader</p>
+### CM146 Introduction to Machine Learning
+- `Reader` — `Winter 2023`
+- `Reader` — `Winter 2024`
