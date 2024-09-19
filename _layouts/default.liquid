@@ -13,6 +13,9 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+    {% if page.layout == "cv" %}
+      <meta name="format-detection" content="telephone=no">
+    {% endif %}
   </head>
 
   <!-- Body -->
