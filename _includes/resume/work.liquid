@@ -8,10 +8,16 @@
   }
 
   .date {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    user-select: none;
-  }
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Safari */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently supported by Chrome and Opera */
+  
+  /* Prevents mobile browsers from formatting numbers */
+  -webkit-text-security: none;
+}
+
 </style>
 
 <ul class="card-text font-weight-light list-group list-group-flush">
