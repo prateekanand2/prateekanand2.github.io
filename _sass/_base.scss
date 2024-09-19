@@ -487,6 +487,13 @@ footer.sticky-bottom {
   }
 }
 
+.date {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+
 .table-cv-map {
   background-color: transparent;
   border: none;
