@@ -20,3 +20,6 @@ social: true # includes social icons at the bottom of the page
 ---
 
 My research interests are in developing novel AI/ML computational methods. Broadly, I am invested in deep learning, traditional machine learning, and statistical approaches that are scalable and interpretable. Current applications of my work are centered around genetics and published in RECOMB 2024 and Genome Research.
+
+`Major Field:` Artificial Intelligence
+`Minor Fields:` Data Science Computing and Computational Systems Biology
