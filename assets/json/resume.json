@@ -83,6 +83,13 @@
             "summary": "Method: QuadKAST"
         },
         {
+            "name": "Metapipeline-DNA: A Comprehensive Germline & Somatic Genomics Nextflow Pipeline",
+            "publisher": "bioRxiv",
+            "releaseDate": "2024",
+            "url": "https://www.biorxiv.org/content/10.1101/2024.09.04.611267v1",
+            "summary": "Pipeline: Metapipeline-DNA"
+        },
+        {
             "name": "A biobank-scale test of marginal epistasis reveals genome-wide signals of polygenic epistasis",
             "publisher": "bioRxiv",
             "releaseDate": "2023",
