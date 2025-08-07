@@ -6,7 +6,7 @@
         "email": "panand2@g.ucla.edu",
         "phone": "(408) 431-1325",
         "url": "https://prateekanand2.github.io/",
-        "summary": "My research interests are in developing novel AI/ML computational methods. Broadly, I am invested in deep learning, traditional machine learning, and statistical approaches that are scalable and interpretable. Current applications of my work are centered around genetics and published in RECOMB 2024 and Genome Research.",
+        "summary": "My research interests are in developing novel AI/ML computational methods. Broadly, I am invested in deep learning, traditional machine learning, and statistical approaches that are scalable and interpretable.",
         "location": {
             "address": "920 Weyburn Place",
             "postalCode": "CA 90024",
@@ -51,8 +51,9 @@
             "name": "UCLA Computer Science | Sriram Lab",
             "position": "Graduate Student Researcher",
             "startDate": "06\/2022",
-            "summary": "Developing scalable machine learning/statistical software for human genetics.",
+            "summary": "Currently building deep generative models for genetic variation data and imputation.",
             "highlights": [
+                "Developed scalable machine learning/statistical software for human genetics",
                 "Research Intern: Bruins in Genomics (06\/2022 - 08\/2022)"
             ]
         },
@@ -139,6 +140,7 @@
             "name": "Other",
             "icon": "fa-solid fa-cogs",
             "keywords": [
+                "Generative Models",
                 "Probabilistic Models",
                 "Hypothesis Testing",
                 "Cluster Computing"
