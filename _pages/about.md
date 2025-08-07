@@ -21,4 +21,4 @@ social: true # includes social icons at the bottom of the page
 
 I am pursuing a degree in `Computer Science` with a specialization in `Artificial Intelligence`. My work also spans the intersection of `Data Science Computing` and `Computational Systems Biology`.
 
-My research interests are in developing novel AI/ML computational methods. Broadly, I am invested in deep learning, traditional machine learning, and statistical approaches that are scalable and interpretable. Current applications of my work are centered around genetics and published in RECOMB 2024 and Genome Research.
+My research interests are in developing novel AI/ML computational methods. I am invested in deep learning, traditional machine learning, and statistical approaches that are scalable and interpretable. Recently, I have been focused on deep generative models for genetic variation data. I have also started exploring masked language modeling for rare feature imputation.
