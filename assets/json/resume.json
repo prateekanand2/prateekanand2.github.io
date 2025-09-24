@@ -6,7 +6,7 @@
         "email": "panand2@g.ucla.edu",
         "phone": "(408) 431-1325",
         "url": "https://prateekanand2.github.io/",
-        "summary": "My research interests are in developing novel AI/ML computational methods. I am invested in deep learning, traditional machine learning, and statistical approaches that are scalable and interpretable. Recently, I have been focused on deep generative models for genetic variation data. I have also started exploring masked language modeling for rare feature imputation.",
+        "summary": "My research interests are in developing novel AI/ML computational methods. I am invested in deep learning, traditional machine learning, and statistical approaches that are scalable and interpretable. Recently, I have been focused on deep generative models for genetic variation data. I have also started exploring discrete diffusion and masked language modeling approaches for rare feature imputation.",
         "location": {
             "address": "920 Weyburn Place",
             "postalCode": "CA 90024",
@@ -92,7 +92,7 @@
         },
         {
             "name": "A biobank-scale test of marginal epistasis reveals genome-wide signals of polygenic epistasis",
-            "publisher": "bioRxiv",
+            "publisher": "To appear in Nature Genetics",
             "releaseDate": "2023",
             "url": "https://www.biorxiv.org/content/10.1101/2023.09.10.557084v1",
             "summary": "Method: FAME"
