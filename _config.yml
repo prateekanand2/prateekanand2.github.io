@@ -193,6 +193,7 @@ collections:
 markdown: kramdown
 highlighter: rouge
 kramdown:
+  toc_levels: 1..6
   input: GFM
   syntax_highlighter_opts:
     css_class: "highlight"
