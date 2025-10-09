@@ -77,10 +77,17 @@
     ],
     "publications": [
         {
+            "name": "Comprehensive gene heritability estimation reveals the genetic architecture of rare coding variants underlying complex traits",
+            "publisher": "bioRxiv",
+            "releaseDate": "2025",
+            "url": "https://www.biorxiv.org/content/10.1101/2025.10.07.681018v1",
+            "summary": "Method: FLEX"
+        },
+        {
             "name": "A scalable adaptive quadratic kernel method for interpretable epistasis analysis in complex traits",
             "publisher": "Genome Research",
             "releaseDate": "2024",
-            "url": "http://genome.cshlp.org/content/early/2024/08/29/gr.279140.124.abstract",
+            "url": "https://genome.cshlp.org/content/34/9/1294.abstract?sid=341e3c32-b056-41f6-8131-129a42944a8b",
             "summary": "Method: QuadKAST"
         },
         {
