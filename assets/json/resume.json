@@ -105,6 +105,29 @@
             "summary": "Method: FAME"
         }
     ],
+    "presentations": [
+        {
+            "name": "Deep generative model of genetic variation data improves imputation accuracy in private populations",
+            "publisher": "American Society of Human Genetics",
+            "releaseDate": "2025",
+            "url": "https://prateekanand2.github.io/assets/pdf/ashg2025.pdf",
+            "summary": ""
+        },
+        {
+            "name": "Fluctutating methylation clocks and mutational frequencies lead to patient-specific inference of CHIP subclone dynamics",
+            "publisher": "Canary CREST Research Program",
+            "releaseDate": "2023",
+            "url": "https://prateekanand2.github.io/assets/pdf/crest.pdf",
+            "summary": ""
+        },
+        {
+            "name": "Explaining potential epistasis in genomic data using symbolic representations of complex black box models",
+            "publisher": "Bruins in Genomics Research Program",
+            "releaseDate": "2022",
+            "url": "https://prateekanand2.github.io/assets/pdf/big.pdf",
+            "summary": ""
+        }
+    ],
     "skills": [
         {
             "name": "Programming languages",
