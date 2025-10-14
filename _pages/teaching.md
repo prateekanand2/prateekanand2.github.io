@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-### **CM146: Introduction to Machine Learning**
+### **CM146: Introduction to Machine Learning (UCLA)**
 - Teaching Assistant — `Winter 2025`
 - Course Reader      — `Winter 2024`
 - Course Reader      — `Winter 2023`
