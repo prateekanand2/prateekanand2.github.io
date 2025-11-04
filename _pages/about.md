@@ -21,4 +21,4 @@ social: true # includes social icons at the bottom of the page
 
 I am pursuing a degree in `Computer Science` with a specialization in `Artificial Intelligence`. My work also spans the intersection of `Data Science Computing` and `Computational Systems Biology`.
 
-My research interests are in developing novel AI/ML computational methods. I am invested in deep learning, traditional machine learning, and statistical approaches that are scalable and interpretable. Recently, I have been focused on deep generative models for genetic variation data. I have also started exploring discrete diffusion and masked language modeling approaches for rare feature imputation.
+My research interests are in developing novel AI/ML computational methods. I am invested in deep learning, traditional machine learning, and statistical approaches that are scalable and interpretable. Recently, I have been focused on deep generative models for genetic variation data. I have also started exploring <a href="https://github.com/prateekanand2/DeepLearningImputation/tree/main">discrete diffusion and masked language modeling</a> approaches for rare feature imputation.
