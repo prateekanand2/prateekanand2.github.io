@@ -7,11 +7,12 @@
 {% assign username = repo_parts[0] %}
 {% assign repo_name = repo_parts[1] %}
 
-<div class="repo p-3 mb-3">
-  <div class="repo-header d-flex justify-content-between align-items-center">
+<div class="repo">
+  <div class="repo-header">
     <h4 class="repo-name">
       <a href="https://github.com/{{ include.repository }}" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i> {{ repo_name }}
+        <i class="fab fa-github"></i>
+        <span>{{ repo_name }}</span>
       </a>
     </h4>
   </div>
