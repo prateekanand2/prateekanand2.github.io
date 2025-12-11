@@ -1118,3 +1118,108 @@ swiper-container {
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
+
+<!-- Add this to your _pages/repositories.md file, or create a custom layout -->
+
+<style>
+/* Container for all repositories */
+.repositories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Individual repository card */
+.repo {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background-color: var(--global-bg-color);
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+
+.repo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Repository header */
+.repo-header {
+  margin-bottom: 0.75rem;
+}
+
+.repo-name {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.repo-name a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.repo-name a:hover {
+  text-decoration: underline;
+}
+
+/* Repository metadata (language, stars, forks) */
+.repo-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--global-text-color-light);
+  flex-wrap: wrap;
+}
+
+.repo-meta span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.repo-language i,
+.repo-stars i,
+.repo-forks i {
+  font-size: 0.75rem;
+}
+
+/* Repository description */
+.repo-description {
+  color: var(--global-text-color);
+  font-size: 0.9rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.5;
+  min-height: 4.5rem;
+  flex-grow: 1;
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .repositories {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .repo {
+    height: auto;
+    min-height: 180px;
+  }
+}
+</style>
