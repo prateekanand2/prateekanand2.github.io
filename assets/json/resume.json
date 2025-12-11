@@ -77,6 +77,13 @@
     ],
     "publications": [
         {
+            "name": "A biobank-scale test of marginal epistasis reveals genome-wide signals of polygenic interaction effects",
+            "publisher": "Nature Genetics",
+            "releaseDate": "2025",
+            "url": "https://www.nature.com/articles/s41588-025-02411-y",
+            "summary": "Method: FAME"
+        },
+        {
             "name": "Comprehensive gene heritability estimation reveals the genetic architecture of rare coding variants underlying complex traits",
             "publisher": "bioRxiv",
             "releaseDate": "2025",
@@ -96,13 +103,6 @@
             "releaseDate": "2024",
             "url": "https://www.biorxiv.org/content/10.1101/2024.09.04.611267v1",
             "summary": "Pipeline: Metapipeline-DNA"
-        },
-        {
-            "name": "A biobank-scale test of marginal epistasis reveals genome-wide signals of polygenic epistasis",
-            "publisher": "To appear in Nature Genetics",
-            "releaseDate": "2023",
-            "url": "https://www.biorxiv.org/content/10.1101/2023.09.10.557084v1",
-            "summary": "Method: FAME"
         }
     ],
     "presentations": [
