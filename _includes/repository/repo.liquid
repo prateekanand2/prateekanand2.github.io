@@ -93,11 +93,23 @@
   border-radius: 6px;
   background-color: var(--global-bg-color);
   transition: transform 0.2s, box-shadow 0.2s;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .repo:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.repo-name {
+  margin: 0;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .repo-name a {
@@ -125,7 +137,13 @@
 
 .repo-description {
   color: var(--global-text-color);
-  margin-top: 0.5rem;
   font-size: 0.95rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.5;
+  min-height: 4.5rem;
+  flex-grow: 1;
 }
 </style>
