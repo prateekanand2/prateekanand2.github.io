@@ -1119,7 +1119,6 @@ swiper-container {
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
 
-<style>
 /* Container for all repositories */
 .repositories {
   display: grid;
@@ -1139,11 +1138,11 @@ swiper-container {
   display: flex;
   flex-direction: column;
   padding: 1.25rem;
-}
 
-.repo:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
 }
 
 /* Repository header */
@@ -1158,18 +1157,18 @@ swiper-container {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
 
-.repo-name a {
-  color: var(--global-theme-color);
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
+  a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 
-.repo-name a:hover {
-  text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 /* Repository metadata (language, stars, forks) */
@@ -1180,12 +1179,12 @@ swiper-container {
   font-size: 0.875rem;
   color: var(--global-text-color-light);
   flex-wrap: wrap;
-}
 
-.repo-meta span {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
+  span {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
 }
 
 .repo-language i,
@@ -1214,10 +1213,9 @@ swiper-container {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-  
+
   .repo {
     height: auto;
     min-height: 180px;
   }
 }
-</style>
