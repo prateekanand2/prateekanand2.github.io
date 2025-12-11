@@ -503,6 +503,14 @@ footer.sticky-bottom {
   margin-top: 2rem;
   margin-bottom: 2rem;
   width: 100%;
+  max-width: 100%;
+}
+
+/* Ensure the page container doesn't restrict width */
+.post .repositories,
+.page .repositories {
+  max-width: 100% !important;
+  width: 100% !important;
 }
 
 /* Individual repository card */
