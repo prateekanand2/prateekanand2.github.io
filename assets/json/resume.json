@@ -131,6 +131,11 @@
     "teaching": [
         {
             "title": "Teaching Assistant",
+            "date": "2026",
+            "awarder": "Machine Learning Applications in Biomedicine (UCLA)"
+        },
+        {
+            "title": "Teaching Assistant",
             "date": "2025",
             "awarder": "Introduction to Machine Learning (UCLA)"
         },
