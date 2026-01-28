@@ -7,7 +7,10 @@ nav: true
 nav_order: 6
 ---
 
-### **CM146: Introduction to Machine Learning (UCLA)**
+### **DSB 205: Machine Learning Applications in Biomedicine (UCLA)**
+- Teaching Assistant — `Winter 2026`
+- 
+### **CS 146: Introduction to Machine Learning (UCLA)**
 - Teaching Assistant — `Winter 2025`
 - Course Reader      — `Winter 2024`
 - Course Reader      — `Winter 2023`
