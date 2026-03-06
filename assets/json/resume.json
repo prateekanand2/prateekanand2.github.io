@@ -78,7 +78,7 @@
     "publications": [
         {
             "name": "GPC: Deep generative model of genetic variation data improves imputation accuracy in private populations",
-            "publisher": "The 14<sup>th</sup> International Conference on Learning Representations (ICLR) Gen<sup>2</sup> Workshop — Oral (Top 10%)",
+            "publisher": "The 14<sup>th</sup> International Conference on Learning Representations (ICLR) Gen<sup>2</sup> Workshop — <b>Oral (Top 10%)</b>",
             "releaseDate": "2026",
             "url": "https://openreview.net/forum?id=B0HO98wrPB&invitationId=ICLR.cc/2026/Workshop/Gen2/Submission26/-/Camera_Ready_Revision&referrer=%5BTasks%5D(%2Ftasks)",
             "summary": "Method: GPC"
@@ -115,7 +115,7 @@
     "presentations": [
         {
             "name": "Deep generative model of genetic variation data improves imputation accuracy in private populations",
-            "publisher": "American Society of Human Genetics",
+            "publisher": "American Society of Human Genetics (ASHG)",
             "releaseDate": "2025",
             "url": "https://prateekanand2.github.io/assets/pdf/ashg2025.pdf",
             "summary": ""
