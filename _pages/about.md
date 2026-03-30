@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>panand2@g.ucla.edu</p>
+    <p>prateek@cs.ucla.edu</p>
     <p>(408) 431-1325</p>
     <p>Los Angeles, CA</p>
 
