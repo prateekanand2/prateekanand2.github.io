@@ -9,6 +9,9 @@ nav_order: 6
 
 ### <span style="color:#2698ba;">Teaching Assistant</span>
 
+**CS 124: Machine Learning Applications in Genetics (UCLA)**  
+Spring 2026
+
 **DSB 205: Machine Learning Applications in Biomedicine (UCLA)**  
 Winter 2026
 
