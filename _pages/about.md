@@ -6,7 +6,7 @@ subtitle: UCLA Computer Science Ph.D. Student
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_color_square.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>prateek@cs.ucla.edu</p>
