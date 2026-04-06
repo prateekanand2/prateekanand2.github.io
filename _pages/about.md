@@ -7,7 +7,7 @@ subtitle: UCLA Computer Science Ph.D. Student
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>prateek@cs.ucla.edu</p>
     <p>(408) 431-1325</p>
