@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be presenting on <a href="https://prateekanand2.github.io/presentations/">deep generative models</a> for genetics at <a href="https://meetings.ashg.org/event/ASHG25/home">#ASHG2025</a> in Boston!
+I will be presenting on deep generative models for genetics at <a href="https://meetings.ashg.org/event/ASHG25/home">#ASHG2025</a> in Boston!
