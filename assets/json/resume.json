@@ -41,6 +41,15 @@
             "location": "Los Angeles, CA",
             "url": "https://www.cs.ucla.edu/",
             "area": "Computer Science",
+            "studyType": "M.S.",
+            "startDate": "2024",
+            "endDate": "2026"
+        },
+        {
+            "institution": "UCLA",
+            "location": "Los Angeles, CA",
+            "url": "https://www.cs.ucla.edu/",
+            "area": "Computer Science",
             "studyType": "B.S.",
             "startDate": "2020",
             "endDate": "2024"
