@@ -114,10 +114,10 @@
             "summary": "Method: QuadKAST"
         },
         {
-            "name": "Metapipeline-DNA: A Comprehensive Germline & Somatic Genomics Nextflow Pipeline",
-            "publisher": "bioRxiv",
-            "releaseDate": "2024",
-            "url": "https://www.biorxiv.org/content/10.1101/2024.09.04.611267v1",
+            "name": "Metapipeline-DNA: A comprehensive germline and somatic genomics Nextflow pipeline",
+            "publisher": "Cell Reports Methods",
+            "releaseDate": "2026",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2667237526000408",
             "summary": "Pipeline: Metapipeline-DNA"
         }
     ],
