@@ -21,8 +21,9 @@
       institution: UCLA Computer Science | Sriram Lab
       year: 06/2022 - now
       description:
-        - Currently building deep generative models for genetic variation data and imputation.
-        - Developed scalable machine learning/statistical software for human genetics.
+        - Developing discrete diffusion models and improved guidance methods for cell-type-specific regulatory DNA design.
+        - Building deep generative models of genetic variation for synthetic data and imputation.
+        - Creating scalable machine learning/statistical software to understand human genetic architecture.
         - "Research Intern: Bruins in Genomics Research Program (06/2022 - 08/2022)"
     - title: Research Intern
       institution: Stanford University School of Medicine | Curtis Lab
@@ -40,6 +41,14 @@
   type: time_table
   contents:
     - title: >
+        <a href="https://www.biorxiv.org/content/10.1101/2023.05.16.541036v3">GPC: An expressive and tractable deep generative model for genetic variation data</a>
+      year: 2026
+      description: PLOS Genetics
+    - title: >
+        <a href="https://www.sciencedirect.com/science/article/pii/S2667237526000408">Metapipeline-DNA: A comprehensive germline & somatic genomics Nextflow pipeline</a>
+      year: 2026
+      description: Cell Reports Methods
+    - title: >
         <a href="https://openreview.net/forum?id=B0HO98wrPB&invitationId=ICLR.cc/2026/Workshop/Gen2/Submission26/-/Camera_Ready_Revision&referrer=%5BTasks%5D(%2Ftasks)">GPC: Deep generative model of genetic variation data improves imputation accuracy in private populations</a>
       year: 2026
       description: "ICLR Gen<sup>2</sup> Workshop — <b>Oral Spotlight (Top 10%)</b>"
@@ -55,10 +64,6 @@
         <a href="https://genome.cshlp.org/content/34/9/1294.abstract?sid=341e3c32-b056-41f6-8131-129a42944a8b">A scalable adaptive quadratic kernel method for interpretable epistasis analysis in complex traits</a>
       year: 2024
       description: Genome Research
-    - title: >
-        <a href="https://www.biorxiv.org/content/10.1101/2024.09.04.611267v1">Metapipeline-DNA: A Comprehensive Germline & Somatic Genomics Nextflow Pipeline</a>
-      year: 2024
-      description: bioRxiv
 
 - title: Presentations
   type: time_table
@@ -145,6 +150,7 @@
         - Algorithms in Bioinformatics
     - title: Other
       items:
+        - Diffusion Models
         - Generative Models
         - Probabilistic Models
         - Hypothesis Testing

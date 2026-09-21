@@ -6,7 +6,7 @@
         "email": "prateek@cs.ucla.edu",
         "phone": "(408) 431-1325",
         "homepage": "https://prateekanand2.github.io/",
-        "summary": "My research interests are in developing novel AI/ML computational methods. I am invested in deep learning, traditional machine learning, and statistical approaches that are scalable and interpretable. Recently, I have been focused on deep generative models for genetic variation data. I have also started exploring deep learning approaches for rare feature imputation.",
+        "summary": "My research interests are in developing novel AI/ML computational methods. Broadly, I am invested in deep generative models, traditional machine learning, and statistical approaches for understanding and generating biological data. Recently, I have been focused on deep generative models for regulatory DNA design. I am also building generative models of human genetic variation for synthetic data and imputation.",
         "location": {
             "address": "920 Weyburn Place",
             "postalCode": "CA 90024",
@@ -60,9 +60,10 @@
             "name": "UCLA Computer Science | Sriram Lab",
             "position": "Graduate Student Researcher",
             "startDate": "06\/2022",
-            "summary": "Currently building deep generative models for genetic variation data and imputation.",
+            "summary": "Developing discrete diffusion models and improved guidance methods for cell-type-specific regulatory DNA design.",
             "highlights": [
-                "Developed scalable machine learning/statistical software for human genetics",
+                "Building deep generative models of genetic variation for synthetic data and imputation",
+                "Creating scalable machine learning/statistical software to understand human genetic architecture",
                 "Research Intern: Bruins in Genomics Research Program (06\/2022 - 08\/2022)"
             ]
         },
@@ -85,6 +86,20 @@
         }
     ],
     "publications": [
+        {
+            "name": "GPC: An expressive and tractable deep generative model for genetic variation data",
+            "publisher": "PLOS Genetics",
+            "releaseDate": "2026",
+            "url": "https://www.biorxiv.org/content/10.1101/2023.05.16.541036v3",
+            "summary": "Method: GPC"
+        },
+        {
+            "name": "Metapipeline-DNA: A comprehensive germline and somatic genomics Nextflow pipeline",
+            "publisher": "Cell Reports Methods",
+            "releaseDate": "2026",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2667237526000408",
+            "summary": "Pipeline: Metapipeline-DNA"
+        },
         {
             "name": "GPC: Deep generative model of genetic variation data improves imputation accuracy in private populations",
             "publisher": "ICLR Gen<sup>2</sup> Workshop — <b>Oral Spotlight (Top 10%)</b>",
@@ -112,13 +127,6 @@
             "releaseDate": "2024",
             "url": "https://genome.cshlp.org/content/34/9/1294.abstract?sid=341e3c32-b056-41f6-8131-129a42944a8b",
             "summary": "Method: QuadKAST"
-        },
-        {
-            "name": "Metapipeline-DNA: A comprehensive germline and somatic genomics Nextflow pipeline",
-            "publisher": "Cell Reports Methods",
-            "releaseDate": "2026",
-            "url": "https://www.sciencedirect.com/science/article/pii/S2667237526000408",
-            "summary": "Pipeline: Metapipeline-DNA"
         }
     ],
     "presentations": [
@@ -213,6 +221,7 @@
             "name": "Other",
             "icon": "fa-solid fa-cogs",
             "keywords": [
+                "Diffusion Models",
                 "Generative Models",
                 "Probabilistic Models",
                 "Hypothesis Testing",
