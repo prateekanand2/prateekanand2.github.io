@@ -101,13 +101,6 @@
             "summary": "Pipeline: Metapipeline-DNA"
         },
         {
-            "name": "GPC: Deep generative model of genetic variation data improves imputation accuracy in private populations",
-            "publisher": "ICLR Gen<sup>2</sup> Workshop — <b>Oral Spotlight (Top 10%)</b>",
-            "releaseDate": "2026",
-            "url": "https://openreview.net/forum?id=B0HO98wrPB&invitationId=ICLR.cc/2026/Workshop/Gen2/Submission26/-/Camera_Ready_Revision&referrer=%5BTasks%5D(%2Ftasks)",
-            "summary": "Method: GPC"
-        },
-        {
             "name": "A biobank-scale test of marginal epistasis reveals genome-wide signals of polygenic interaction effects",
             "publisher": "Nature Genetics",
             "releaseDate": "2025",
@@ -115,18 +108,27 @@
             "summary": "Method: FAME"
         },
         {
-            "name": "Comprehensive gene heritability estimation reveals the genetic architecture of rare coding variants underlying complex traits",
-            "publisher": "bioRxiv",
-            "releaseDate": "2025",
-            "url": "https://www.biorxiv.org/content/10.1101/2025.10.07.681018v1",
-            "summary": "Method: FLEX"
-        },
-        {
             "name": "A scalable adaptive quadratic kernel method for interpretable epistasis analysis in complex traits",
             "publisher": "Genome Research",
             "releaseDate": "2024",
             "url": "https://genome.cshlp.org/content/34/9/1294.abstract?sid=341e3c32-b056-41f6-8131-129a42944a8b",
             "summary": "Method: QuadKAST"
+        }
+    ],
+    "preprints": [
+        {
+            "name": "GPC: Deep generative model of genetic variation data improves imputation accuracy in private populations",
+            "publisher": "ICLR Gen<sup>2</sup> Workshop — <b>Oral Spotlight (Top 10%)</b>",
+            "releaseDate": "2026",
+            "url": "https://openreview.net/forum?id=B0HO98wrPB&invitationId=ICLR.cc/2026/Workshop/Gen2/Submission26/-/Camera_Ready_Revision&referrer=%5BTasks%5D(%2Ftasks)",
+            "summary": "Method: GPC"
+        },
+        {
+            "name": "Comprehensive gene heritability estimation reveals the genetic architecture of rare coding variants underlying complex traits",
+            "publisher": "bioRxiv",
+            "releaseDate": "2025",
+            "url": "https://www.biorxiv.org/content/10.1101/2025.10.07.681018v1",
+            "summary": "Method: FLEX"
         }
     ],
     "presentations": [

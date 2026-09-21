@@ -290,6 +290,7 @@ scholar:
   locale: en
   source: /_bibliography/
   bibliography: papers.bib
+  preprints: preprints.bib
   presentations: presentations.bib
   bibliography_template: bib
   bibtex_filters: [latex, smallcaps, superscript]
@@ -460,6 +461,7 @@ jsonresume:
   - education
   - experience
   - publications
+  - preprints
   - presentations
   - teaching
   - skills

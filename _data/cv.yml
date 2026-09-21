@@ -49,21 +49,25 @@
       year: 2026
       description: Cell Reports Methods
     - title: >
-        <a href="https://openreview.net/forum?id=B0HO98wrPB&invitationId=ICLR.cc/2026/Workshop/Gen2/Submission26/-/Camera_Ready_Revision&referrer=%5BTasks%5D(%2Ftasks)">GPC: Deep generative model of genetic variation data improves imputation accuracy in private populations</a>
-      year: 2026
-      description: "ICLR Gen<sup>2</sup> Workshop — <b>Oral Spotlight (Top 10%)</b>"
-    - title: >
         <a href="https://www.nature.com/articles/s41588-025-02411-y">A biobank-scale test of marginal epistasis reveals genome-wide signals of polygenic interaction effects</a>
       year: 2025
       description: Nature Genetics
     - title: >
-        <a href="https://www.biorxiv.org/content/10.1101/2025.10.07.681018v1">Comprehensive gene heritability estimation reveals the genetic architecture of rare coding variants underlying complex traits</a>
-      year: 2025
-      description: bioRxiv
-    - title: >
         <a href="https://genome.cshlp.org/content/34/9/1294.abstract?sid=341e3c32-b056-41f6-8131-129a42944a8b">A scalable adaptive quadratic kernel method for interpretable epistasis analysis in complex traits</a>
       year: 2024
       description: Genome Research
+
+- title: Preprints
+  type: time_table
+  contents:
+    - title: >
+        <a href="https://openreview.net/forum?id=B0HO98wrPB&invitationId=ICLR.cc/2026/Workshop/Gen2/Submission26/-/Camera_Ready_Revision&referrer=%5BTasks%5D(%2Ftasks)">GPC: Deep generative model of genetic variation data improves imputation accuracy in private populations</a>
+      year: 2026
+      description: "ICLR Gen<sup>2</sup> Workshop — <b>Oral Spotlight (Top 10%)</b>"
+    - title: >
+        <a href="https://www.biorxiv.org/content/10.1101/2025.10.07.681018v1">Comprehensive gene heritability estimation reveals the genetic architecture of rare coding variants underlying complex traits</a>
+      year: 2025
+      description: bioRxiv
 
 - title: Presentations
   type: time_table
