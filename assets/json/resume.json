@@ -89,14 +89,14 @@
         {
             "name": "GPC: An expressive and tractable deep generative model for genetic variation data",
             "publisher": "PLOS Genetics",
-            "releaseDate": "2026",
+            "releaseDate": "2026-09",
             "url": "https://www.biorxiv.org/content/10.1101/2023.05.16.541036v3",
             "summary": "Method: GPC"
         },
         {
             "name": "Metapipeline-DNA: A comprehensive germline and somatic genomics Nextflow pipeline",
             "publisher": "Cell Reports Methods",
-            "releaseDate": "2026",
+            "releaseDate": "2026-03",
             "url": "https://www.sciencedirect.com/science/article/pii/S2667237526000408",
             "summary": "Pipeline: Metapipeline-DNA"
         },

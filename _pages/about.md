@@ -22,5 +22,3 @@ social: true # includes social icons at the bottom of the page
 I am pursuing a degree in `Computer Science` with a specialization in `Artificial Intelligence`. My work also spans the intersection of `Data Science Computing` and `Computational Systems Biology`.
 
 My research interests are in developing novel AI/ML computational methods. Broadly, I am invested in deep generative models, traditional machine learning, and statistical approaches for understanding and generating biological data. Recently, I have been focused on deep generative models for regulatory DNA design. I am also building generative models of human genetic variation for synthetic data and imputation.
-
-My most recent work, [GPC](https://www.biorxiv.org/content/10.1101/2023.05.16.541036v3) (a deep generative model of genetic variation data), was accepted to `PLOS Genetics` and presented as a **Top 10% Oral Spotlight** at the [ICLR Gen² Workshop](https://genai-in-genomics.github.io/).
