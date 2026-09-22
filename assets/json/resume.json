@@ -233,6 +233,13 @@
     ],
     "awards": [
         {
+            "title": "Google PhD Fellowship Nominee",
+            "date": "2026",
+            "awarder": "UCLA",
+            "url": "https://research.google/programs-and-events/phd-fellowship/",
+            "summary": "One of four students nominated university-wide"
+        },
+        {
             "title": "Warren Alpert Computational Biology and AI Fellow",
             "date": "2024",
             "awarder": "The Warren Alpert Foundation",
