@@ -25,10 +25,10 @@ I am currently developing discrete diffusion models for cell-type-specific regul
 
 <div class="striking-image">
   <div class="only-light">
-    {% include figure.liquid path="assets/img/gpc_striking_light.png" class="img-fluid" zoomable=true loading="eager" alt="Dependencies among genetic variants learned by GPC, drawn as DNA strands inside a ring of sequence letters" %}
+    {% include figure.liquid path="assets/img/gpc_striking_light.png" class="img-fluid" zoomable=true loading="eager" alt="The branching tree learned by GPC, drawn as DNA strands inside a ring of sequence letters" %}
   </div>
   <div class="only-dark">
-    {% include figure.liquid path="assets/img/gpc_striking_dark.png" class="img-fluid" zoomable=true loading="eager" alt="Dependencies among genetic variants learned by GPC, drawn as DNA strands inside a ring of sequence letters" %}
+    {% include figure.liquid path="assets/img/gpc_striking_dark.png" class="img-fluid" zoomable=true loading="eager" alt="The branching tree learned by GPC, drawn as DNA strands inside a ring of sequence letters" %}
   </div>
-  <p class="caption">How 10,000 genetic variants from the 1000 Genomes Project depend on one another, as learned by <a href="https://www.biorxiv.org/content/10.1101/2023.05.16.541036v3">GPC</a>. Each strand connects variants that tend to be inherited together.</p>
+  <p class="caption">Most genetic models treat DNA as a simple chain. <a href="https://www.biorxiv.org/content/10.1101/2023.05.16.541036v3">GPC</a> instead learns the branching tree shown here, which connects positions that can be far apart, and builds a deep generative model on top of it.</p>
 </div>
