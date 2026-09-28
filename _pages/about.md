@@ -13,22 +13,19 @@ profile:
     <p>(408) 431-1325</p>
     <p>Los Angeles, CA</p>
 
+feature: # shown in the right column under the profile; swaps with the theme
+  light: gpc_striking_light.png
+  dark: gpc_striking_dark.png
+  alt: The branching tree learned by GPC, drawn as DNA strands inside a ring of sequence letters
+  caption: >
+    Most genetic models treat DNA as a simple chain. <a href="https://www.biorxiv.org/content/10.1101/2023.05.16.541036v3">GPC</a> instead learns the branching tree shown here, which connects positions that can be far apart, and builds a deep generative model on top of it.
+
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
 I am a Ph.D. student in Computer Science at UCLA, advised by [Sriram Sankararaman](https://web.cs.ucla.edu/~sriram/). I work on machine learning for genomics, with a focus on deep generative models.
 
 I am currently developing discrete diffusion models for cell-type-specific regulatory DNA design, and building generative models of human genetic variation for synthetic data and imputation. I also work on scalable statistical methods for understanding human genetic architecture.
-
-<div class="striking-image">
-  <div class="only-light">
-    {% include figure.liquid path="assets/img/gpc_striking_light.png" class="img-fluid" zoomable=true loading="eager" alt="The branching tree learned by GPC, drawn as DNA strands inside a ring of sequence letters" %}
-  </div>
-  <div class="only-dark">
-    {% include figure.liquid path="assets/img/gpc_striking_dark.png" class="img-fluid" zoomable=true loading="eager" alt="The branching tree learned by GPC, drawn as DNA strands inside a ring of sequence letters" %}
-  </div>
-  <p class="caption">Most genetic models treat DNA as a simple chain. <a href="https://www.biorxiv.org/content/10.1101/2023.05.16.541036v3">GPC</a> instead learns the branching tree shown here, which connects positions that can be far apart, and builds a deep generative model on top of it.</p>
-</div>

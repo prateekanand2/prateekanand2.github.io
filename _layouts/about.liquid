@@ -15,8 +15,9 @@ layout: default
   </header>
 
   <article>
+    <div class="about-grid">
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div class="profile about-profile">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
@@ -38,7 +39,8 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="about-main">
+    {{ content }}
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -63,6 +65,25 @@ layout: default
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+
+    </div>
+
+    {% if page.feature %}
+      <div class="about-feature">
+        <div class="only-light">
+          {% assign feature_light = page.feature.light | prepend: 'assets/img/' %}
+          {% include figure.liquid path=feature_light class="img-fluid" zoomable=true loading="eager" alt=page.feature.alt %}
+        </div>
+        <div class="only-dark">
+          {% assign feature_dark = page.feature.dark | prepend: 'assets/img/' %}
+          {% include figure.liquid path=feature_dark class="img-fluid" zoomable=true loading="eager" alt=page.feature.alt %}
+        </div>
+        {% if page.feature.caption %}
+          <p class="caption">{{ page.feature.caption }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+    </div>
 
     <!-- Social -->
     {% if page.social %}

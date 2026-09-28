@@ -32,7 +32,11 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+// Accent colors, taken from the GPC figure on the about page
+$accent-light-color: #c2255c !default; // magenta from the light version
+$accent-dark-color: #f4a261 !default; // amber from the dark version
+
+$code-bg-color-light: rgba($accent-light-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
