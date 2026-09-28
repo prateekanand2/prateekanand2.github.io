@@ -25,7 +25,8 @@
             "startDate": "2024",
             "endDate": "2029",
             "courses": [
-                "Major Field: Artifial Intelligence",
+                "Advisor: Sriram Sankararaman",
+                "Major Field: Artificial Intelligence",
                 "Minor Fields: Data Science Computing and Computational Systems Biology"
             ]
         },
@@ -189,7 +190,7 @@
             "keywords": [
                 "Scikit-learn",
                 "PyTorch",
-                "Numpy",
+                "NumPy",
                 "Pandas",
                 "Git"
             ]
