@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Code for my publications and the libraries they build on.
+description: Code for my publications and related projects.
 nav: true
 nav_order: 4
 ---

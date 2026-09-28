@@ -19,16 +19,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Computer Science Ph.D. student at UCLA, advised by [Sriram Sankararaman](https://web.cs.ucla.edu/~sriram/). I build machine learning methods for genomics: models expressive enough to capture real biological data, and tractable enough to answer exact questions about it.
+I am a Ph.D. student in Computer Science at UCLA, advised by [Sriram Sankararaman](https://web.cs.ucla.edu/~sriram/). I work on machine learning for genomics, with a focus on deep generative models.
 
-My current work is on deep generative models for two problems: designing cell-type-specific regulatory DNA, and modeling human genetic variation for synthetic data and imputation. Earlier, I built scalable statistical software for studying genetic architecture at biobank scale.
+I am currently developing discrete diffusion models for cell-type-specific regulatory DNA design, and building generative models of human genetic variation for synthetic data and imputation. I also work on scalable statistical methods for understanding human genetic architecture.
 
 <div class="striking-image">
   <div class="only-light">
-    {% include figure.liquid path="assets/img/gpc_striking_light.png" class="img-fluid" zoomable=true loading="eager" alt="A tree learned from human haplotypes, drawn as DNA strands radiating inside a ring of sequence" %}
+    {% include figure.liquid path="assets/img/gpc_striking_light.png" class="img-fluid" zoomable=true loading="eager" alt="Dependencies among genetic variants learned by GPC, drawn as DNA strands inside a ring of sequence letters" %}
   </div>
   <div class="only-dark">
-    {% include figure.liquid path="assets/img/gpc_striking_dark.png" class="img-fluid" zoomable=true loading="eager" alt="A tree learned from human haplotypes, drawn as DNA strands radiating inside a ring of sequence" %}
+    {% include figure.liquid path="assets/img/gpc_striking_dark.png" class="img-fluid" zoomable=true loading="eager" alt="Dependencies among genetic variants learned by GPC, drawn as DNA strands inside a ring of sequence letters" %}
   </div>
-  <p class="caption">What a genome looks like to one of my models.</p>
+  <p class="caption">How 10,000 genetic variants from the 1000 Genomes Project depend on one another, as learned by <a href="https://www.biorxiv.org/content/10.1101/2023.05.16.541036v3">GPC</a>. Each strand connects variants that tend to be inherited together.</p>
 </div>

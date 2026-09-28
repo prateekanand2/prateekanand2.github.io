@@ -78,6 +78,10 @@
       year: 2025
       description: American Society of Human Genetics (ASHG)
     - title: >
+        <a href="https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_52">A scalable adaptive quadratic kernel method for interpretable epistasis analysis in complex traits</a>
+      year: 2024
+      description: Research in Computational Molecular Biology (RECOMB)
+    - title: >
         <a href="https://prateekanand2.github.io/assets/pdf/crest.pdf">Fluctuating methylation clocks and mutational frequencies lead to patient-specific inference of CHIP subclone dynamics</a>
       year: 2023
       description: Canary CREST Research Program

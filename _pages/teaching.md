@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Teaching assistantships and course grading at UCLA.
+description: Teaching assistant and course reader positions at UCLA.
 nav: true
 nav_order: 6
 ---
