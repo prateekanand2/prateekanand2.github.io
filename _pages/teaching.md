@@ -2,12 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Teaching assistantship, mentorship, and grading.
+description: Teaching assistantships and course grading at UCLA.
 nav: true
 nav_order: 6
 ---
 
-### <span style="color:#2698ba;">Teaching Assistant</span>
+### <span style="color: var(--global-theme-color);">Teaching Assistant</span>
 
 **CS 124: Machine Learning Applications in Genetics (UCLA)**  
 Spring 2026
@@ -20,7 +20,7 @@ Winter 2025
 
 ---
 
-### <span style="color:#2698ba;">Course Reader</span>
+### <span style="color: var(--global-theme-color);">Course Reader</span>
 
 **CS 146: Introduction to Machine Learning (UCLA)**  
 Winter 2023, Winter 2024

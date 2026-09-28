@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: resume.pdf
-description: Please see pdf for more details.
+description: Education, research, publications, and teaching.
 toc:
   sidebar: left
 ---

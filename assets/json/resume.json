@@ -7,13 +7,6 @@
         "phone": "(408) 431-1325",
         "homepage": "https://prateekanand2.github.io/",
         "summary": "My research interests are in developing novel AI/ML computational methods. Broadly, I am invested in deep generative models, traditional machine learning, and statistical approaches for understanding and generating biological data. Recently, I have been focused on deep generative models for regulatory DNA design. I am also building generative models of human genetic variation for synthetic data and imputation.",
-        "location": {
-            "address": "920 Weyburn Place",
-            "postalCode": "CA 90024",
-            "city": "Los Angeles",
-            "countryCode": "US",
-            "region": "California"
-        },
         "profiles": [
             {
                 "network": "X",
@@ -140,7 +133,7 @@
             "summary": ""
         },
         {
-            "name": "Fluctutating methylation clocks and mutational frequencies lead to patient-specific inference of CHIP subclone dynamics",
+            "name": "Fluctuating methylation clocks and mutational frequencies lead to patient-specific inference of CHIP subclone dynamics",
             "publisher": "Canary CREST Research Program",
             "releaseDate": "2023",
             "url": "https://prateekanand2.github.io/assets/pdf/crest.pdf",

@@ -19,6 +19,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am pursuing a degree in `Computer Science` with a specialization in `Artificial Intelligence`. My work also spans the intersection of `Data Science Computing` and `Computational Systems Biology`.
+I am a Computer Science Ph.D. student at UCLA, advised by [Sriram Sankararaman](https://web.cs.ucla.edu/~sriram/). I build machine learning methods for genomics: models expressive enough to capture real biological data, and tractable enough to answer exact questions about it.
 
-My research interests are in developing novel AI/ML computational methods. Broadly, I am invested in deep generative models, traditional machine learning, and statistical approaches for understanding and generating biological data. Recently, I have been focused on deep generative models for regulatory DNA design. I am also building generative models of human genetic variation for synthetic data and imputation.
+My current work is on deep generative models for two problems: designing cell-type-specific regulatory DNA, and modeling human genetic variation for synthetic data and imputation. Earlier, I built scalable statistical software for studying genetic architecture at biobank scale.
+
+<div class="striking-image">
+  <div class="only-light">
+    {% include figure.liquid path="assets/img/gpc_striking_light.png" class="img-fluid" zoomable=true loading="eager" alt="A tree learned from human haplotypes, drawn as DNA strands radiating inside a ring of sequence" %}
+  </div>
+  <div class="only-dark">
+    {% include figure.liquid path="assets/img/gpc_striking_dark.png" class="img-fluid" zoomable=true loading="eager" alt="A tree learned from human haplotypes, drawn as DNA strands radiating inside a ring of sequence" %}
+  </div>
+  <p class="caption">What a genome looks like to one of my models.</p>
+</div>

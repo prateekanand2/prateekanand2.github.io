@@ -759,6 +759,40 @@ footer.sticky-bottom {
   }
 }
 
+// Theme-specific images (light/dark twins of the same figure)
+
+.only-dark {
+  display: none;
+}
+
+html[data-theme="dark"] {
+  .only-light {
+    display: none;
+  }
+
+  .only-dark {
+    display: block;
+  }
+}
+
+.striking-image {
+  margin: 2.5rem auto 0;
+  max-width: 30rem;
+
+  figure {
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .caption {
+    margin-top: 0.75rem;
+  }
+}
+
 // Publications
 
 .publications, .presentations {
