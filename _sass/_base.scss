@@ -1251,13 +1251,11 @@ nav[data-toggle="toc"] {
   }
 }
 
-/* small screens */
+/* small screens: no sidebar. Hide it from the first paint, before the TOC script runs,
+   so it can't flash over the page while it loads */
 @media (max-width: 576px) {
-  /* override stickyness so that the navigation does not follow scrolling */
-  nav[data-toggle="toc"] {
-    visibility: hidden;
-    height: 0;
-    top: 0;
+  #toc-sidebar {
+    display: none;
   }
 }
 

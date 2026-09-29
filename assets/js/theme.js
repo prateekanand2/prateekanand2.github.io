@@ -1,6 +1,8 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
 let toggleTheme = (theme) => {
+  // animate the color change only when the user switches themes, not on every page load
+  transTheme();
   if (theme == "dark") {
     setTheme("light");
   } else {
@@ -9,7 +11,6 @@ let toggleTheme = (theme) => {
 };
 
 let setTheme = (theme) => {
-  transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
 
