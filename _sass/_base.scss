@@ -828,11 +828,41 @@ html[data-theme="dark"] {
     height: auto;
   }
 
+  // Stack the light and dark variants and swap them with opacity instead of display,
+  // so the theme toggle's transition crossfades them along with the background.
+  // visibility keeps the hidden one out of clicks (zoom) and screen readers.
+  .feature-images {
+    display: grid;
+
+    > .only-light,
+    > .only-dark {
+      grid-area: 1 / 1;
+      display: block;
+    }
+
+    > .only-dark {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
   .caption {
     margin: 0.75rem 0 0;
     text-align: left;
     line-height: 1.5;
     color: var(--global-text-color-light);
+  }
+}
+
+html[data-theme="dark"] .about-feature .feature-images {
+  > .only-light {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  > .only-dark {
+    opacity: 1;
+    visibility: visible;
   }
 }
 

@@ -70,13 +70,15 @@ layout: default
 
     {% if page.feature %}
       <div class="about-feature">
-        <div class="only-light">
-          {% assign feature_light = page.feature.light | prepend: 'assets/img/' %}
-          {% include figure.liquid path=feature_light class="img-fluid" zoomable=true loading="eager" alt=page.feature.alt %}
-        </div>
-        <div class="only-dark">
-          {% assign feature_dark = page.feature.dark | prepend: 'assets/img/' %}
-          {% include figure.liquid path=feature_dark class="img-fluid" zoomable=true loading="eager" alt=page.feature.alt %}
+        <div class="feature-images">
+          <div class="only-light">
+            {% assign feature_light = page.feature.light | prepend: 'assets/img/' %}
+            {% include figure.liquid path=feature_light class="img-fluid" zoomable=true loading="eager" alt=page.feature.alt %}
+          </div>
+          <div class="only-dark">
+            {% assign feature_dark = page.feature.dark | prepend: 'assets/img/' %}
+            {% include figure.liquid path=feature_dark class="img-fluid" zoomable=true loading="eager" alt=page.feature.alt %}
+          </div>
         </div>
         {% if page.feature.caption %}
           <p class="caption">{{ page.feature.caption }}</p>
