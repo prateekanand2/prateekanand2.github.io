@@ -19,7 +19,7 @@
   
   <div class="repo-meta">
     <span class="repo-language">
-      <i class="fas fa-circle" style="color: #f1e05a;"></i> 
+      <i class="fas fa-circle"></i> 
       <span class="language-name" data-repo="{{ include.repository }}">Loading...</span>
     </span>
     <span class="repo-stars">
@@ -60,10 +60,19 @@
       descriptionEl.textContent = data.description || 'No description available';
     }
     
-    // Update language
+    // Update language, with GitHub's color for it
     const languageEl = document.querySelector(`.language-name[data-repo="${repo}"]`);
     if (languageEl) {
       languageEl.textContent = data.language || 'Unknown';
+      const colors = {
+        'Python': '#3572A5', 'Jupyter Notebook': '#DA5B0B', 'C++': '#f34b7d', 'C': '#555555',
+        'R': '#198CE7', 'Julia': '#a270ba', 'Rust': '#dea584', 'Shell': '#89e051',
+        'JavaScript': '#f1e05a', 'TypeScript': '#3178c6', 'HTML': '#e34c26', 'Cuda': '#3A4E3A'
+      };
+      const dot = languageEl.previousElementSibling;
+      if (dot && colors[data.language]) {
+        dot.style.color = colors[data.language];
+      }
     }
     
     // Update stars
@@ -88,63 +97,3 @@
 })();
 </script>
 
-<style>
-.repo {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 6px;
-  background-color: var(--global-bg-color);
-  transition: transform 0.2s, box-shadow 0.2s;
-  height: 180px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.repo:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.repo-name {
-  margin: 0;
-  font-size: 1.1rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.repo-name a {
-  color: var(--global-theme-color);
-  text-decoration: none;
-}
-
-.repo-name a:hover {
-  text-decoration: underline;
-}
-
-.repo-meta {
-  display: flex;
-  gap: 1rem;
-  margin: 0.5rem 0;
-  font-size: 0.9rem;
-  color: var(--global-text-color-light);
-}
-
-.repo-meta span {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-}
-
-.repo-description {
-  color: var(--global-text-color);
-  font-size: 0.95rem;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  line-height: 1.5;
-  min-height: 4.5rem;
-  flex-grow: 1;
-}
-</style>

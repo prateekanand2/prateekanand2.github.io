@@ -48,5 +48,5 @@ jobs:
         uses: lycheeverse/lychee-action@v1.9.0
         with:
           fail: true
-          # removed md files that include liquid tags
-          args: --accept 200..=299,403,429 --exclude-path README.md --exclude-path _pages/404.md --verbose --no-progress './**/*.md' './**/*.html'
+          # removed md files that include liquid tags, and al-folio's CUSTOMIZE.md (it links to theme folders this site doesn't use)
+          args: --accept 200..=299,403,429 --exclude-path README.md --exclude-path _pages/404.md --exclude-path CUSTOMIZE.md --verbose --no-progress './**/*.md' './**/*.html'

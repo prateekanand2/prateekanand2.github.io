@@ -520,16 +520,17 @@ footer.sticky-bottom {
   border-radius: 6px;
   background-color: var(--global-bg-color);
   transition: transform 0.2s, box-shadow 0.2s;
-  height: 200px;
+  height: 180px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 1.25rem;
   max-width: 100% !important;
   width: 100%;
 
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -540,7 +541,7 @@ footer.sticky-bottom {
 
 .repo-name {
   margin: 0;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 600;
   white-space: nowrap;
   overflow: hidden;
@@ -563,15 +564,15 @@ footer.sticky-bottom {
 .repo-meta {
   display: flex;
   gap: 1rem;
-  margin-bottom: 0.75rem;
-  font-size: 0.875rem;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
   color: var(--global-text-color-light);
   flex-wrap: wrap;
 
   span {
     display: flex;
     align-items: center;
-    gap: 0.3rem;
+    gap: 0.25rem;
   }
 }
 
@@ -584,7 +585,7 @@ footer.sticky-bottom {
 /* Repository description */
 .repo-description {
   color: var(--global-text-color);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -1090,12 +1091,19 @@ code {
 }
 
 // Transitioning Themes
+// Browsers with the View Transitions API crossfade the whole page (see toggleTheme in theme.js);
+// the html.transition rule below is the fallback for browsers without it.
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 750ms;
+}
+
 html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
+  transition: all 750ms !important; // theme.js removes the class after 800ms; keep it longer than this
+  transition-delay: 0s !important;
 }
 
 // Extra Markdown style (post Customization)

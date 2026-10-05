@@ -2,11 +2,16 @@
 
 let toggleTheme = (theme) => {
   // animate the color change only when the user switches themes, not on every page load
-  transTheme();
-  if (theme == "dark") {
-    setTheme("light");
+  const next = theme == "dark" ? "light" : "dark";
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    setTheme(next);
+  } else if (document.startViewTransition) {
+    // crossfade a snapshot of the old page into the new one, so every element (text, cards,
+    // images) changes in step; per-element CSS transitions drift apart in Chrome and Safari
+    document.startViewTransition(() => setTheme(next));
   } else {
-    setTheme("dark");
+    transTheme();
+    setTheme(next);
   }
 };
 
@@ -179,9 +184,12 @@ let setVegaLiteTheme = (theme) => {
 
 let transTheme = () => {
   document.documentElement.classList.add("transition");
+  // keep the class until the 750ms color transition in _base.scss has finished; removing it
+  // earlier cancels the transition on most elements, so they snap to the new colors while
+  // links (which have their own transition) keep fading
   window.setTimeout(() => {
     document.documentElement.classList.remove("transition");
-  }, 500);
+  }, 800);
 };
 
 let initTheme = (theme) => {
