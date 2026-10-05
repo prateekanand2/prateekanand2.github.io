@@ -46,7 +46,7 @@
       year: 2026
       description: PLOS Genetics
     - title: >
-        <a href="https://www.sciencedirect.com/science/article/pii/S2667237526000408">Metapipeline-DNA: A comprehensive germline & somatic genomics Nextflow pipeline</a>
+        <a href="https://www.sciencedirect.com/science/article/pii/S2667237526000408">Metapipeline-DNA: A comprehensive germline and somatic genomics Nextflow pipeline</a>
       year: 2026
       description: Cell Reports Methods
     - title: >
@@ -62,7 +62,7 @@
   type: time_table
   contents:
     - title: >
-        <a href="https://openreview.net/forum?id=B0HO98wrPB&invitationId=ICLR.cc/2026/Workshop/Gen2/Submission26/-/Camera_Ready_Revision&referrer=%5BTasks%5D(%2Ftasks)">GPC: Deep generative model of genetic variation data improves imputation accuracy in private populations</a>
+        <a href="https://openreview.net/forum?id=B0HO98wrPB">GPC: Deep generative model of genetic variation data improves imputation accuracy in private populations</a>
       year: 2026
       description: "ICLR Gen<sup>2</sup> Workshop — <b>Oral Spotlight (Top 10%)</b>"
     - title: >
