@@ -305,6 +305,22 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
+  // Reserve each link's bold width with an invisible, zero-height bold copy of its title, so
+  // the current page's (bolder) link is no wider than the others and the menu doesn't shift
+  // between pages. ::before, because Bootstrap draws the dropdown caret with ::after.
+  .navbar-nav .nav-item .nav-link[data-title]::before {
+    content: attr(data-title);
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    font-weight: bolder;
+  }
+
+  .navbar-nav .nav-item.active > .nav-link[data-title]::before {
+    font-weight: inherit; // the active link is already bolder
+  }
+
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
