@@ -21,6 +21,7 @@ Then open http://localhost:8080. The page reloads when you save a file.
 - `_bibliography/`: publications (`papers.bib`, `preprints.bib`) and presentations (`presentations.bib`)
 - `assets/json/resume.json`: content for the CV page
 - `assets/pdf/resume.pdf`: the downloadable resume
+- `_resume/Prateek_Anand_Resume_1page.docx`: the Word source for that PDF (not published on the site)
 
 ## License
 
