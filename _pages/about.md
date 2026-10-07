@@ -18,7 +18,7 @@ feature: # shown in the right column under the profile; swaps with the theme
   dark: gpc_striking_dark.png
   alt: The branching tree learned by GPC, drawn as DNA strands inside a ring of sequence letters
   caption: >
-    Most genetic models treat DNA as a simple chain. <a href="https://www.biorxiv.org/content/10.1101/2023.05.16.541036v3">GPC</a> instead learns the branching tree shown here, which connects positions that can be far apart, and builds a deep generative model on top of it.
+    Most genetic models treat DNA as a simple chain. <a href="https://doi.org/10.1371/journal.pgen.1012321">GPC</a> instead learns the branching tree shown here, which connects positions that can be far apart, and builds a deep generative model on top of it.
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts

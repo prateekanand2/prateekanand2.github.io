@@ -42,7 +42,7 @@
   type: time_table
   contents:
     - title: >
-        <a href="https://www.biorxiv.org/content/10.1101/2023.05.16.541036v3">GPC: An expressive and tractable deep generative model for genetic variation data</a>
+        <a href="https://doi.org/10.1371/journal.pgen.1012321">GPC: An expressive and tractable deep generative model for genetic variation data</a>
       year: 2026
       description: PLOS Genetics
     - title: >
