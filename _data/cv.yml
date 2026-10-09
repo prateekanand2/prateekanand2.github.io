@@ -22,8 +22,9 @@
       institution: UCLA Computer Science | Sriram Lab
       year: 06/2022 - now
       description:
-        - Developing discrete diffusion models and improved guidance methods for cell-type-specific regulatory DNA design.
+        - Developing discrete diffusion models and improved guidance methods for cell-type-specific enhancer design (under review).
         - Building deep generative models of genetic variation for synthetic data and imputation.
+        - Developing ensemble machine learning approaches for imputing rare variants across diverse ancestries.
         - Creating scalable machine learning/statistical software to understand human genetic architecture.
         - "Research Intern: Bruins in Genomics Research Program (06/2022 - 08/2022)"
     - title: Research Intern

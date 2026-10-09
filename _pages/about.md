@@ -28,4 +28,4 @@ social: true # includes social icons at the bottom of the page
 
 I am a Ph.D. student in Computer Science at UCLA, advised by [Sriram Sankararaman](https://web.cs.ucla.edu/~sriram/). I work on machine learning for genomics, with a focus on deep generative models.
 
-I am currently developing discrete diffusion models for cell-type-specific regulatory DNA design, and building generative models of human genetic variation for synthetic data and imputation. I also work on scalable statistical methods for understanding human genetic architecture.
+I am currently developing discrete diffusion models for cell-type-specific regulatory DNA design, building generative models of human genetic variation for synthetic data and imputation, and exploring ensemble machine learning approaches for imputing rare variants across diverse ancestries. I also work on scalable statistical methods for understanding human genetic architecture.
