@@ -67,6 +67,10 @@
       year: 2026
       description: "ICLR Gen<sup>2</sup> Workshop — <b>Oral Spotlight (Top 10%)</b>"
     - title: >
+        <a href="https://doi.org/10.64898/2026.10.20.760508">Genome-wide LD scores enable robust heritability and genetic correlation estimation from summary statistics across genetic ancestries</a>
+      year: 2026
+      description: bioRxiv
+    - title: >
         <a href="https://www.biorxiv.org/content/10.1101/2025.10.07.681018v1">Comprehensive gene heritability estimation reveals the genetic architecture of rare coding variants underlying complex traits</a>
       year: 2025
       description: bioRxiv

@@ -119,6 +119,13 @@
             "summary": "Method: GPC"
         },
         {
+            "name": "Genome-wide LD scores enable robust heritability and genetic correlation estimation from summary statistics across genetic ancestries",
+            "publisher": "bioRxiv",
+            "releaseDate": "2026",
+            "url": "https:\/\/doi.org\/10.64898\/2026.10.20.760508",
+            "summary": "Method: SUMMIT"
+        },
+        {
             "name": "Comprehensive gene heritability estimation reveals the genetic architecture of rare coding variants underlying complex traits",
             "publisher": "bioRxiv",
             "releaseDate": "2025",
