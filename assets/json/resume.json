@@ -89,6 +89,11 @@
             "summary": "Method: GPC"
         },
         {
+            "name": "The Label is Not the Disease: Recognition Delay in Diagnosis Codes and Its Cost to EHR Case Finding",
+            "publisher": "Machine Learning for Health (ML4H) — Proceedings Track",
+            "releaseDate": "2026-09"
+        },
+        {
             "name": "Metapipeline-DNA: A comprehensive germline and somatic genomics Nextflow pipeline",
             "publisher": "Cell Reports Methods",
             "releaseDate": "2026-03",

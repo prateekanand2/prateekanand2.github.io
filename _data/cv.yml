@@ -47,6 +47,10 @@
       year: 2026
       description: PLOS Genetics
     - title: >
+        The Label is Not the Disease: Recognition Delay in Diagnosis Codes and Its Cost to EHR Case Finding
+      year: 2026
+      description: "Machine Learning for Health (ML4H) — Proceedings Track"
+    - title: >
         <a href="https://www.sciencedirect.com/science/article/pii/S2667237526000408">Metapipeline-DNA: A comprehensive germline and somatic genomics Nextflow pipeline</a>
       year: 2026
       description: Cell Reports Methods
