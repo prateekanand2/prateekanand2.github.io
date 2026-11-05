@@ -91,7 +91,8 @@
         {
             "name": "The Label is Not the Disease: Recognition Delay in Diagnosis Codes and Its Cost to EHR Case Finding",
             "publisher": "Machine Learning for Health (ML4H) — Proceedings Track",
-            "releaseDate": "2026-09"
+            "releaseDate": "2026-09",
+            "url": "https://openreview.net/forum?id=icuB1d7to4"
         },
         {
             "name": "Metapipeline-DNA: A comprehensive germline and somatic genomics Nextflow pipeline",
